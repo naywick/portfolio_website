@@ -1,0 +1,22 @@
+.navbar {
+  position: fixed;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: none;
+  width: 100%;
+   a {
+    color: #E5E5E5;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: border-bottom 0.75s;
+    transition: border-bottom 0.75s;
+    &:hover {
+      border-bottom: 1px solid #53FEA2;
+    }
+  }
+}
